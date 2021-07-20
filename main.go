@@ -38,6 +38,7 @@ func (b *blockchain) listblocks() {
 }
 
 func main() {
+	// first blockchain!
 	chain := blockchain{}
 	chain.addBlock("Genesis Block")
 	chain.addBlock("Second Block")
