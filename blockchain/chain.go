@@ -120,7 +120,6 @@ func Blockchain() *blockchain {
 			if checkpoint == nil {
 				b.AddBlock()
 			} else {
-
 				b.restore(checkpoint)
 			}
 		})
