@@ -1,7 +1,7 @@
 package main
 
-import "github.com/kyu-coder/nomadcoin/cli"
+import "github.com/kyu-coder/nomadcoin/wallet"
 
 func main() {
-	cli.Start()
+	wallet.Wallet()
 }
