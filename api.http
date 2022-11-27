@@ -6,6 +6,9 @@ http://localhost:4000/status
 
 ###
 http://localhost:4000/blocks
+###
+
+http://localhost:4000/balance/6279fc9cd335b76ea68b2dac427a1ad27cd3251a718ef74d07d0e5432f3744d317226165188ba1b8d7cb83a85ab4b2c21a87b208669f9b664d709a31a09617b6
 
 ###
 http://localhost:4000/balance/nico?total=true
@@ -15,7 +18,7 @@ http://localhost:4000/balance/nico?total=true
 POST http://localhost:4000/blocks
 
 ###
-http://localhost:4000/blocks/a8126327b2adcd179a1672a7af949ee98bcc0eff628fdbaefbe9f80b9c7ad95b
+http://localhost:4000/blocks/6279fc9cd335b76ea68b2dac427a1ad27cd3251a718ef74d07d0e5432f3744d317226165188ba1b8d7cb83a85ab4b2c21a87b208669f9b664d709a31a09617b6
 
 ###
 POST http://localhost:4000/transactions
@@ -30,3 +33,14 @@ http://localhost:4000/mempool
 
 ###
 http://localhost:4000/balance/lynn?total=true
+
+###
+POST http://localhost:4000/peers
+
+{
+    "address": "127.0.0.1",
+    "port": "3000"
+}
+
+###
+http://localhost:3000/peers
