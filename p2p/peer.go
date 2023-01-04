@@ -67,6 +67,7 @@ func (p *peer) write() {
 }
 
 func initPeer(conn *websocket.Conn, address, port string) *peer {
+	Peers.m.Lock()
 	key := fmt.Sprintf("%s:%s", address, port)
 	p := &peer{
 		conn:    conn,
