@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"os"
 	"runtime"
-
 	"github.com/kyu-coder/nomadcoin/explorer"
 	"github.com/kyu-coder/nomadcoin/rest"
 )
