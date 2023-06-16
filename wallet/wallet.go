@@ -12,7 +12,7 @@ import (
 
 	"github.com/kyu-coder/nomadcoin/utils"
 )
-
+ 
 const (
 	fileName string = "nomadcoin.wallet"
 )
